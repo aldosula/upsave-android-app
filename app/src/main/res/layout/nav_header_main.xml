@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileCircleImageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/imageBorderColor"
+            android:src="@drawable/download"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+
+            android:id="@+id/usernameTextView"
+            style="@style/viewParent.headerText"
+            android:text="Aldo Sula"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/profileCircleImageView"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            style="@style/viewParent.headerText"
+            android:text="Edit personal details"
+            android:textSize="16sp"
+            android:textColor="#5D5C5C"
+            android:layout_below="@id/usernameTextView"
+            android:layout_toRightOf="@id/profileCircleImageView"/>
+
+        <ImageView
+            style="@style/viewParent"
+            android:src="@drawable/ic_more"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

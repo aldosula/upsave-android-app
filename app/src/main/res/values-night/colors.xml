@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--primary colors-->
+    <color name="contentBodyColor">#000</color>
+    <color name="contentTextColor">#fff</color>
+    <color name="bottomNavigationBackground">#000</color>
+    <color name="cashColor">#FDFDFD</color>
+    <color name="miniTitle">#fff</color>
+    <color name="miniDescription">#fff</color>
+    <color name="contentStatusBar">#000</color>
+    <color name="end">#7525F0</color>
+    <color name="start">#0079FF</color>
+    <color name="centre">#0022FF</color>
+    <color name="centerColor">#9D74FF</color>
+    <color name="startColor">#9D00FF</color>
+    <color name="endColor">#8047FF</color>
+
+</resources>

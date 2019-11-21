@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.appsnipp.modernlogin.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/parent.contentLayout">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textViewUser"
+                    style="@style/viewParent.headerText"
+                    android:maxLines="2"
+                    android:text="@string/name"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profileCircleImageView"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="@color/imageBorderColor"
+                    android:src="@drawable/download"
+                    android:layout_alignParentRight="true" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_search"
+                    android:layout_toLeftOf="@id/profileCircleImageView"/>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardPreventCornerOverlap="false"
+                    app:cardElevation="0dp"
+                    android:minHeight="300dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:layout_alignParentTop="true">
+                    <Button
+                        android:background="@android:color/transparent"
+                        android:textAllCaps="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Money Left:"
+                        style="@style/viewParent.headerText"
+                        android:layout_marginTop="90dp"
+                        android:textAlignment="center"/>
+
+                    <Button
+                        android:background="@android:color/transparent"
+                        android:id="@+id/ammount"
+                        style="@style/viewParent.headerText"
+                        android:elevation="0dp"
+                        android:maxLines="2"
+                        android:text="0.00 $"
+                        android:textSize="20pt"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:layout_alignParentTop="true"
+                       />
+                    <com.appsnipp.modernlogin.CustomProgressBar
+                        android:id="@+id/pb"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:indeterminate="false"
+                        android:layout_width="360dp"
+                        android:layout_height="310dp"
+                        android:layout_gravity="center"
+                        android:minWidth="400dp"
+                        android:minHeight="200dp"
+                        android:progressDrawable="@drawable/progressbar_design"
+                        android:progress="15"/>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="Recent Transactions"
+                    style="@style/viewParent.headerText"/>
+
+                <Button
+                    android:id="@+id/rtf"
+                    android:textAllCaps="false"
+                    android:background="@android:color/transparent"
+                    android:layout_alignParentRight="true"
+                    style="@style/viewParent"
+                    android:text="See All"
+                    android:layout_centerVertical="true"
+                    android:textSize="7pt"
+                    android:textColor="@color/primaryTextColor"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+            <!--remove the below layout with recycler view, use card poplar courses as model for design-->
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/card_popular_courses"/>
+                <include layout="@layout/card_popular_courses"/>
+                <include layout="@layout/card_popular_courses"/>
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="Deadline Payments"
+                    style="@style/viewParent.headerText"/>
+
+                <TextView
+                    android:layout_alignParentRight="true"
+                    style="@style/viewParent"
+                    android:text="See All"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/headerMoreTextSize"
+                    android:textColor="@color/primaryTextColor"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+            <!--remove the below layout with recycler view, use card poplar courses as model for design-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/card_popular_courses"/>
+                    <include layout="@layout/card_popular_courses"/>
+                    <include layout="@layout/card_popular_courses"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

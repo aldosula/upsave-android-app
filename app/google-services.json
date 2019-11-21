@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "710431623344",
+    "firebase_url": "https://modernlogin-19471.firebaseio.com",
+    "project_id": "modernlogin-19471",
+    "storage_bucket": "modernlogin-19471.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710431623344:android:cdcb7d65d9429bfbf7d375",
+        "android_client_info": {
+          "package_name": "com.appsnipp.modernlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710431623344-249g8r1865vv5jvee6tg01r29a59342n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsnipp.modernlogin",
+            "certificate_hash": "321f4b1af57f8d4861322a21d0ea9ff2aaf66169"
+          }
+        },
+        {
+          "client_id": "710431623344-951pavlfp8j8hgatla82j5rbb6o2rebe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGm5R7UGTlVyv7iu7-G31UEH1nCn900Og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710431623344-951pavlfp8j8hgatla82j5rbb6o2rebe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
