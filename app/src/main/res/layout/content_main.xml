@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.appsnipp.modernlogin.MainActivity"
     tools:showIn="@layout/app_bar_main"
@@ -66,19 +67,30 @@
                     android:minHeight="300dp"
                     app:cardBackgroundColor="@android:color/transparent"
                     android:layout_alignParentTop="true">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/viewParent.headerText"
+                        android:text="Money Left:"
+                        android:textSize="15pt"
+                        android:layout_marginBottom="35dp"
+                        android:layout_gravity="center"
+
+                        />
                     <Button
+                        android:id="@+id/textPercentage"
                         android:background="@android:color/transparent"
                         android:textAllCaps="false"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="Money Left:"
+                        android:text="Percentage"
                         style="@style/viewParent.headerText"
                         android:layout_marginTop="90dp"
                         android:textAlignment="center"/>
 
                     <Button
                         android:background="@android:color/transparent"
-                        android:id="@+id/ammount"
+                        android:id="@+id/textActivity1"
                         style="@style/viewParent.headerText"
                         android:elevation="0dp"
                         android:maxLines="2"
@@ -88,17 +100,15 @@
                         android:layout_gravity="center"
                         android:layout_alignParentTop="true"
                        />
-                    <com.appsnipp.modernlogin.CustomProgressBar
-                        android:id="@+id/pb"
-                        style="?android:attr/progressBarStyleHorizontal"
-                        android:indeterminate="false"
-                        android:layout_width="360dp"
-                        android:layout_height="310dp"
-                        android:layout_gravity="center"
-                        android:minWidth="400dp"
-                        android:minHeight="200dp"
-                        android:progressDrawable="@drawable/progressbar_design"
-                        android:progress="15"/>
+                    <com.hookedonplay.decoviewlib.DecoView
+                        android:id="@+id/dynamicArcView"
+                        custom:dv_lineWidth="26dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                    </com.hookedonplay.decoviewlib.DecoView>
+
+
 
 
 
@@ -108,10 +118,12 @@
 
             </RelativeLayout>
 
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp">
+
 
                 <TextView
                     android:layout_alignParentTop="true"
@@ -144,6 +156,8 @@
                 <include layout="@layout/card_popular_courses"/>
                 <include layout="@layout/card_popular_courses"/>
 
+
+
             </LinearLayout>
 
 
@@ -175,12 +189,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="20dp">
+                android:layout_marginTop="20dp"
+                >
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_marginBottom="50dp">
 
                     <include layout="@layout/card_popular_courses"/>
                     <include layout="@layout/card_popular_courses"/>

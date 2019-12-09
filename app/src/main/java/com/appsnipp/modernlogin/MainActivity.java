@@ -7,6 +7,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -17,12 +18,27 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    GoogleSignInClient mGoogleSignInClient;
+    FirebaseAuth fAuth;
+
+    DatabaseReference databaseReference;
 
     private BottomNavigationView bottomNavigationView;
     private static final int MODE_DARK = 0;
@@ -35,10 +51,11 @@ public class MainActivity extends AppCompatActivity
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             Fragment fragment = null;
+
             switch (item.getItemId()) {
                 case R.id.navigationMyProfile:
                   //  startActivity(new Intent(getApplicationContext(), Home.class ));
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new SettingsFragment()).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new ProfileFragment()).commit();
                    //fragment = new SettingsFragment();
                     return true;
                 case R.id.navigationMyCourses:
@@ -49,10 +66,12 @@ public class MainActivity extends AppCompatActivity
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new HomeFragment()).commit();
                     return true;
                 case R.id.navigationSearch:
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new GetBudgetFragment()).commit();
                     return true;
                 case R.id.navigationMenu:
-                    DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-                    drawer.openDrawer(GravityCompat.START);
+                   // DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+                    //drawer.openDrawer(GravityCompat.START);
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new SettingsFragment()).commit();
                     return true;
             }
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
@@ -66,13 +85,14 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if(new InternetDialog(this).getInternetStatus()){
+
 
         setDarkMode(getWindow());
-
+        sendGoogleSignInData();
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -92,6 +112,8 @@ public class MainActivity extends AppCompatActivity
     //  bottomNavigationView.setSelectedItemId(R.id.navigationHome);
 
         //handling floating action menu
+
+        }
 
     }
 
@@ -132,12 +154,45 @@ public class MainActivity extends AppCompatActivity
 
         }
 
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
 
-    //create a seperate class file, if required in multiple activities
+
+    public void sendGoogleSignInData(){
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestEmail()
+                .build();
+        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
+        databaseReference = FirebaseDatabase.getInstance().getReference();
+        fAuth = FirebaseAuth.getInstance();
+        GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(this);
+        if (acct != null) {
+            String personName = acct.getDisplayName();
+            String personEmail = acct.getEmail();
+
+          //  User_Data user = new User_Data(
+           //         personName,
+            //        personEmail
+           // );
+
+          databaseReference=  FirebaseDatabase.getInstance().getReference()
+                    .child(FirebaseAuth.getInstance().getCurrentUser().getUid());
+             //       .setValue(user);
+            databaseReference.child("name").setValue(personName);
+            databaseReference.child("email").setValue(personEmail);
+
+        }
+
+        }
+
+
+
+
+
+  //dark mode
     public void setDarkMode(Window window){
         if(new DarkModePrefManager(this).isNightMode()){
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);

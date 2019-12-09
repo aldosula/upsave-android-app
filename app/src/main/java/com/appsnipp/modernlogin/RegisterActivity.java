@@ -117,7 +117,8 @@ Button reg_button;
                                 User_Data user = new User_Data(
                                         rname,
                                         remail,
-                                        rphone
+                                        rphone,
+                                        0.00f
                                 );
 
                                 FirebaseDatabase.getInstance().getReference()

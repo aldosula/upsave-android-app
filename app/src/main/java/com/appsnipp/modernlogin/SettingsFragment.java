@@ -38,13 +38,15 @@ public class SettingsFragment extends Fragment {
     Button signOut;
     GoogleSignInClient mGoogleSignInClient;
     FirebaseAuth fAuth;
+
     DatabaseReference databaseReference;
     private FrameLayout fragmentContainer;
     private Switch darkModeSwitch;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-      View view =inflater.inflate(R.layout.activity_settings, container,false);
+      View view = inflater.inflate(R.layout.activity_settings, container,false);
+
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
@@ -52,6 +54,8 @@ public class SettingsFragment extends Fragment {
         mGoogleSignInClient = GoogleSignIn.getClient(view.getContext(), gso);
 
         databaseReference = FirebaseDatabase.getInstance().getReference();
+
+
 
         imageView = view.findViewById(R.id.profile);
         name= view.findViewById(R.id.usernameTextView);
@@ -82,6 +86,9 @@ public class SettingsFragment extends Fragment {
             }
         });
 
+
+
+
         signOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -98,14 +105,19 @@ public class SettingsFragment extends Fragment {
 
         GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(view.getContext());
         if (acct != null) {
+
             String personName = acct.getDisplayName();
             String personEmail = acct.getEmail();
             String personId = acct.getId();
             Uri personPhoto = acct.getPhotoUrl();
-            name.setText(personName);
-            email.setText(personEmail);
-            id.setText(personId);
-            Glide.with(this).load(String.valueOf(personPhoto)).into(imageView);
+
+                        name.setText(personName);
+                        email.setText(personEmail);
+                        id.setText(personId);
+                        Glide.with(SettingsFragment.this.getActivity()).load(String.valueOf(personPhoto)).into(imageView);
+
+
+
 
 
         }

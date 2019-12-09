@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.appsnipp.modernlogin.SalesReportActivity">
+
+
+
+    <androidx.core.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="720dp">
+
+            <RelativeLayout
+                android:id="@+id/headerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/reports_header_bk"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="60dp">
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/ic_dropdown_arrow" />
+
+                <TextView
+                    android:id="@+id/salesHeaderTextView"
+                    android:text="Total Ammount of money"
+                    android:layout_marginTop="30dp"
+                    style="@style/reportContentText" />
+
+                <TextView
+                    style="@style/viewParent.headerText"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/whiteTextColor"
+                    android:layout_below="@id/salesHeaderTextView"
+                    android:text="$15,990.00"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="70dp"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:background="@color/contentBodyColor"
+
+                android:id="@+id/cardLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/headerLayout"
+                android:elevation="0dp"
+                android:layout_marginTop="-80dp"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:background="@color/contentBodyColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardLayout"
+                android:orientation="vertical">
+
+                <include layout="@layout/card_sales"/>
+                <include layout="@layout/credit_card"/>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

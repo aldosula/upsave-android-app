@@ -107,6 +107,7 @@
             android:text="Language" />
 
         <Button
+            android:textAllCaps="false"
             android:id="@+id/button"
             android:background="@android:color/transparent"
             style="@style/viewParent.headerText.settingsTextIcon"

@@ -20,6 +20,10 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
+        app:itemIconTint="@color/contentTextColor"
+        app:itemTextColor="@color/contentTextColor"
+        android:background="@color/card_color"
+        android:foreground="?attr/selectableItemBackground"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />
 
