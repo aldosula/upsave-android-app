@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.machinarius:preferencefragment:0.1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3418646a498d66bc1c0b69471894741/jetified-preferencefragment-0.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3418646a498d66bc1c0b69471894741/jetified-preferencefragment-0.1.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.machinarius/preferencefragment/0.1.1/1d04a8e239c7c5462f2802ced11551eadd13a0c6/preferencefragment-0.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.machinarius/preferencefragment/0.1.1/d9d701dd1c151135d664f2e2a6bc050d37ce1eb9/preferencefragment-0.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

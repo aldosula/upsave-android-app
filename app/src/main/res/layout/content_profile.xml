@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.appsnipp.modernlogin.SettingsActivity"
+    tools:context="com.appsnipp.modernlogin.Activities.SettingsActivity"
     style="@style/parent.contentLayout"
     tools:showIn="@layout/activity_profile">
 

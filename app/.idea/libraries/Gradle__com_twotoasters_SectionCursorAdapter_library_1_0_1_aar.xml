@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.twotoasters.SectionCursorAdapter:library:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1a338a261ccd63a6e56d5d32c22de964/jetified-library-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1a338a261ccd63a6e56d5d32c22de964/jetified-library-1.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twotoasters.SectionCursorAdapter/library/1.0.1/b39fed1d60bc398c97e90a7319f7e4abe224b208/library-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twotoasters.SectionCursorAdapter/library/1.0.1/eb15ece3a93948c446c4c46ac9405fa3f2d50709/library-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

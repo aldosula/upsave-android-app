@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/whiteTextColor"
+    app:cardCornerRadius="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+
+        android:background="@color/card_color">
+
+        <ImageView
+            android:id="@+id/salesImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cash"/>
+
+        <RelativeLayout
+            android:layout_width="264dp"
+            android:layout_height="64dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/salesImageView"
+            android:background="@color/card_color"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/category_name"
+                style="@style/reportContentText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_centerInParent="true"
+                android:text="N/A"
+                android:textColor="@color/cashColor"
+                android:textSize="20sp"
+                android:textStyle="bold" >
+
+
+            </TextView>
+
+            <TextView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/expense_amount"
+                android:text=" $ 0.00"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/expense_date"
+                android:layout_marginBottom="5dp"
+                android:maxLines="3"
+                android:text="Date"
+                android:textColor="@color/miniDescription"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

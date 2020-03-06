@@ -34,22 +34,33 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Android Developer"
+            android:text="N/A"
+            android:id="@+id/category_name"
             android:textColor="@color/miniTitle"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/expense_amount"
+            android:textSize="21sp"
+            android:text=" $ 0.00"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"
+            android:drawableRight="@drawable/ic_right_icon"
+          />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Explore the power of android \napplication development"
+            android:text="Category"
             android:textColor="@color/miniDescription"
             android:textSize="15sp"
             android:textStyle="bold"
             android:maxLines="3"
             android:layout_marginBottom="10dp"
-            android:drawableRight="@drawable/ic_right_icon"/>
+         />
 
     </LinearLayout>
 

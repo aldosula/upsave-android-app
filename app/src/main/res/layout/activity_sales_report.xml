@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="com.appsnipp.modernlogin.SalesReportActivity">
+    tools:context="com.appsnipp.modernlogin.Activities.SalesReportActivity">
 
 
 
@@ -66,12 +66,13 @@
             </RelativeLayout>
 
             <LinearLayout
-                android:background="@color/contentBodyColor"
+
 
                 android:id="@+id/cardLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/headerLayout"
+                android:background="@color/transparent"
                 android:elevation="0dp"
                 android:layout_marginTop="-80dp">
 
@@ -134,13 +135,13 @@
                 android:layout_below="@id/cardLayout"
                 android:orientation="vertical">
 
-                <include layout="@layout/card_sales"/>
-                <include layout="@layout/card_sales"/>
-                <include layout="@layout/card_sales"/>
-                <include layout="@layout/card_sales"/>
-                <include layout="@layout/card_sales"/>
-                <include layout="@layout/card_sales"/>
+                <ListView
+                    android:id="@+id/listView"
+                    android:layout_width="match_parent"
+                    android:layout_height="440dp">
 
+
+                </ListView>
             </LinearLayout>
 
 

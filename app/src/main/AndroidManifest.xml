@@ -11,6 +11,8 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
 
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -24,7 +26,7 @@
 
         <!-- activitys -->
         <activity
-            android:name=".StartActivity"
+            android:name=".Activities.StartActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,17 +36,12 @@
         </activity>
 
         <activity
-            android:name=".LoginActivity"
+            android:name=".Activities.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".Activities.RegisterActivity"
             android:theme="@style/AppTheme.NoActionBar" /> <!-- android:windowSoftInputMode="adjustPan" -->
-        <activity
-            android:name=".Main"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Home"
-            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name="com.yalantis.ucrop.UCropActivity"
             android:screenOrientation="portrait"
@@ -61,20 +58,56 @@
         </provider>
 
         <activity
-            android:name=".MainActivity"
+            android:name=".Activities.MainActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".SalesReportActivity"
+            android:name=".Activities.SalesReportActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Fragments.SettingsFragment"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".SettingsActivity"
+            android:name=".Fragments.ReportFragment"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".SettingsFragment"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".ReportFragment"
-            android:theme="@style/AppTheme.NoActionBar" />
+
+
+        <activity android:name=".Activities.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".Activities.MainExpenseActivity">
+            <!-- Parent activity meta-data to support Android 4.0 and lower -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.MainExpenseActivity"/>
+        </activity>
+
+        <activity android:name=".Activities.CategoryEditActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible"
+            android:parentActivityName=".Activities.MainExpenseActivity">
+            <!-- Parent activity meta-data to support Android 4.0 and lower -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.MainExpenseActivity"/>
+        </activity>
+
+        <activity android:name=".Activities.ExpenseEditActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible"
+            android:parentActivityName=".Activities.MainExpenseActivity">
+            <!-- Parent activity meta-data to support Android 4.0 and lower -->
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activities.MainExpenseActivity"/>
+        </activity>
+
+        <provider
+            android:authorities="com.appsnipp.modernlogin.provider"
+            android:name=".providers.ExpensesProvider"
+            android:grantUriPermissions="true"
+            android:exported="false">
+        <meta-data
+            android:name="android.support.FILE_PROVIDER_PATHS"
+            android:resource="@xml/file_paths" />
+    </provider>
+
     </application>
 
 </manifest>

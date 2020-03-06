@@ -4,21 +4,23 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.appsnipp.modernlogin.SettingsActivity"
+    tools:context="com.appsnipp.modernlogin.Activities.SettingsActivity"
     android:id="@+id/settings_layout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="900dp"
     android:background="@color/contentBodyColor">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="30dp">
+        android:padding="30dp"
+       >
+
         <FrameLayout
             android:id="@+id/frame_container"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent" />
 
         <TextView
             android:id="@+id/id"
@@ -29,40 +31,40 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-              <de.hdodenhof.circleimageview.CircleImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/profile"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-            app:civ_border_width="2dp"
-            app:civ_border_color="@color/imageBorderColor"
-                android:src="@drawable/download"
                 android:layout_marginTop="15dp"
-                android:layout_marginRight="10dp"/>
+                android:layout_marginRight="10dp"
+                android:src="@drawable/download"
+                app:civ_border_color="@color/imageBorderColor"
+                app:civ_border_width="2dp" />
 
 
             <TextView
                 android:id="@+id/usernameTextView"
                 style="@style/viewParent.headerText"
-                android:text="User user"
-                android:textSize="18sp"
+                android:layout_marginTop="20dp"
                 android:layout_toRightOf="@id/profile"
-                android:layout_marginTop="20dp"/>
+                android:text="User user"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/email"
                 style="@style/viewParent.headerText"
-                android:text="Email"
-                android:textSize="16sp"
-                android:textColor="#5D5C5C"
                 android:layout_below="@id/usernameTextView"
-                android:layout_toRightOf="@id/profile"/>
+                android:layout_toRightOf="@id/profile"
+                android:text="Email"
+                android:textColor="#5D5C5C"
+                android:textSize="16sp" />
 
             <ImageView
                 style="@style/viewParent"
 
-                android:src="@drawable/ic_more"
                 android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"/>
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_more" />
 
         </RelativeLayout>
 
@@ -74,7 +76,7 @@
 
         <TextView
             style="@style/viewParent.headerText.settingsMiniTitle"
-            android:text="Profile"/>
+            android:text="Profile" />
 
         <TextView
             style="@style/viewParent.headerText.settingsTextIcon"
@@ -83,13 +85,13 @@
 
         <TextView
             style="@style/viewParent.headerText.settingsTextIcon"
-            android:drawableLeft="@drawable/ic_edit_password"
             android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_edit_password"
             android:text="Change Password" />
 
         <TextView
             style="@style/viewParent.headerText.settingsMiniTitle"
-            android:text="Notifications"/>
+            android:text="Notifications" />
 
         <Switch
             style="@style/settingsText"
@@ -99,7 +101,7 @@
 
         <TextView
             style="@style/viewParent.headerText.settingsMiniTitle"
-            android:text="Regional"/>
+            android:text="Regional" />
 
         <TextView
             style="@style/viewParent.headerText.settingsTextIcon"
@@ -107,13 +109,13 @@
             android:text="Language" />
 
         <Button
-            android:textAllCaps="false"
             android:id="@+id/button"
-            android:background="@android:color/transparent"
             style="@style/viewParent.headerText.settingsTextIcon"
+            android:background="@android:color/transparent"
             android:drawableLeft="@drawable/ic_logout"
             android:elevation="0dp"
             android:text="Logout"
+            android:textAllCaps="false"
 
             />
 
@@ -121,7 +123,7 @@
         <TextView
             style="@style/viewParent.headerText.settingsMiniTitle"
             android:text="App ver 2.0.1"
-            android:textAlignment="center"/>
+            android:textAlignment="center" />
 
     </LinearLayout>
 </RelativeLayout>

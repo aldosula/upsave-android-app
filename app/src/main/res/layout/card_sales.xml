@@ -23,25 +23,55 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ic_cash"/>
 
-        <LinearLayout
-            android:background="@color/card_color"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
+        <RelativeLayout
+            android:layout_width="264dp"
+            android:layout_height="64dp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="20dp"
-            android:layout_toRightOf="@id/salesImageView">
+            android:layout_toRightOf="@id/salesImageView"
+            android:background="@color/card_color"
+            android:orientation="vertical">
 
             <TextView
                 style="@style/reportContentText"
-                android:text="Cash"
-                android:textColor="@color/cashColor"/>
-            <TextView
-                style="@style/viewParent.headerText"
-                android:textSize="21sp"
-                android:text="$1000.22"/>
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_centerInParent="true"
+                android:text="N/A"
+                android:textColor="@color/cashColor"
+                android:textSize="20sp"
+                android:textStyle="bold" >
 
-        </LinearLayout>
+
+            </TextView>
+
+            <TextView
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+
+                android:text=" $ 0.00"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginBottom="5dp"
+                android:maxLines="3"
+                android:text="Date"
+                android:textColor="@color/miniDescription"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
 
 
     </RelativeLayout>

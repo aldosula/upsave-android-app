@@ -3,6 +3,7 @@
     <!--primary colors-->
     <color name="contentBodyColor">#000</color>
     <color name="card_color">#242424</color>
+    <color name="transparent">#000000</color>
     <color name="contentTextColor">#fff</color>
     <color name="bottomNavigationBackground">#000</color>
     <color name="cashColor">#FDFDFD</color>

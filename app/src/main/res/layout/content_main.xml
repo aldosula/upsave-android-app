@@ -4,11 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.appsnipp.modernlogin.MainActivity"
+    tools:context="com.appsnipp.modernlogin.Activities.MainActivity"
     tools:showIn="@layout/app_bar_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     style="@style/parent.contentLayout">
+
+
+
+
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -57,6 +61,21 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp">
 
+
+                <TextView
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:text="1.00"
+                    android:id="@+id/max_value"
+                    />
+                <TextView
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:text="1.00"
+                    android:id="@+id/money_left"
+
+
+                    />
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -73,6 +92,7 @@
                         style="@style/viewParent.headerText"
                         android:text="Money Left:"
                         android:textSize="15pt"
+                        android:id="@+id/label"
                         android:layout_marginBottom="35dp"
                         android:layout_gravity="center"
 
@@ -153,8 +173,8 @@
                 android:orientation="vertical">
 
                 <include layout="@layout/card_popular_courses"/>
-                <include layout="@layout/card_popular_courses"/>
-                <include layout="@layout/card_popular_courses"/>
+                <include layout="@layout/card_deposit"/>
+                <include layout="@layout/card_rent"/>
 
 
 
@@ -208,5 +228,44 @@
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/navigation"
+        app:fab_addButtonColorNormal="@color/red_btn_bg_color"
+        app:fab_addButtonColorPressed="@color/red_btn_bg_pressed_color"
+        app:fab_labelStyle="@style/custom_fab"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="420dp"
+
+
+        >
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/blue_btn_bg_color"
+            app:fab_colorPressed="@color/blue_btn_bg_pressed_color"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_add"
+            android:id="@+id/add_expense"
+            app:fab_title="Add expense"
+            />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/blue_btn_bg_color"
+            app:fab_colorPressed="@color/blue_btn_bg_pressed_color"
+            app:fab_size="mini"
+            app:fab_icon="@drawable/ic_add"
+            android:id="@+id/add_income"
+            app:fab_title="Add income"
+            />
+
+
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
 
 </RelativeLayout>

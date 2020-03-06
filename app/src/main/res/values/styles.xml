@@ -62,6 +62,11 @@
     </style>
     <!--styles for app-->
   >
+    <style name="custom_fab">
+    <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/whiteTextColor</item>
+
+    </style>
 
     <style name="parent.contentLayout">
         <item name="android:background">@color/contentBodyColor</item>

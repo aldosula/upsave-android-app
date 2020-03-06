@@ -5,13 +5,18 @@
     android:orientation="vertical">
 
     <ImageView
-        android:layout_margin="10dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="187dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
         android:adjustViewBounds="true"
         android:cropToPadding="true"
-        android:layout_centerInParent="true"
-        android:src="@drawable/onboarding_welcome" />
+        android:src="@drawable/shield" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,11 +26,12 @@
 
         <TextView
             style="@style/onBoardingHeaderText"
-            android:text="@string/onboarding_welcome_1" />
+            android:text="Information gathering" />
 
         <TextView
             style="@style/onBoardingContentText"
-            android:text="@string/onboardingWelcomeContent"/>
+            android:textSize="20sp"
+            android:text="UpSave gathers information in order to boost its performance and to help users achieve their goals faster. \n\nOn every activity that requires use of personal information UpSave immediately notifies you about the information that is needed. \n\nYou have the right to deny any kind of permission but it affects on the application's performance.  "/>
 
     </LinearLayout>
 

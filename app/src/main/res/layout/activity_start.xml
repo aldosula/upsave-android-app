@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@drawable/onboarding_button"
-            android:text="LOGIN"
+            android:text="Next"
             android:textColor="@color/whiteTextColor"
             android:textSize="20dp"
             android:layout_margin="10dp"/>
@@ -60,7 +60,7 @@
             android:id="@+id/btn_skip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SKIP INTRO"
+            android:text="Terms-and-Conditions"
             android:layout_gravity="center"
             android:textSize="16dp"
             android:textStyle="bold"

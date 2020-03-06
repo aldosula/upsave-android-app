@@ -19,16 +19,16 @@
 
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/no_internet_image"
-                android:layout_gravity="center"/>
+                android:layout_width="307dp"
+                android:layout_height="289dp"
+                android:layout_gravity="center"
+                android:src="@drawable/permission" />
 
             <TextView
                 style="@style/homeHeading"
                 android:textColor="@color/blackTextColor"
                 android:textSize="@dimen/headerTextSize"
-                android:text="No Internet"
+                android:text="User Permission Required"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"/>
 
@@ -40,17 +40,18 @@
                 style="@style/learnhubTitleText"
                 android:textStyle="normal"
                 android:textSize="14dp"
-                android:text="Please check your connection status and try again"/>
+                android:text="UpSave values your privacy, so it is designed to minimize the collection and use of your data and provide transparency and control over your information. \n \n In order to use this feature UpSave requires some of your personal information  "/>
 
             <Button
                 android:id="@+id/retry"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Retry"
+                android:text="Agree"
                 android:layout_marginTop="20dp"
                 android:textColor="@color/whiteTextColor"
                 android:background="@drawable/onboarding_button"/>
+
             <Button
                 android:background="@android:color/transparent"
                 android:textAllCaps="false"
@@ -58,7 +59,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="GO OFFLINE"
+                android:text="Learn More"
                 android:layout_gravity="center"
                 android:textSize="16dp"
                 android:textStyle="bold"

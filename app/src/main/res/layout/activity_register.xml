@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.appsnipp.modernlogin.RegisterActivity"
+    tools:context="com.appsnipp.modernlogin.Activities.RegisterActivity"
     android:background="@drawable/login_anim"
     android:focusableInTouchMode="true"
     android:gravity="center"
