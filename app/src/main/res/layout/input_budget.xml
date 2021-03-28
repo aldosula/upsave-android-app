@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/main_bg">
+
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:id="@+id/card_budget"
+    android:layout_margin="15dp"
+    android:layout_height="80dp"
+    android:visibility="visible"
+    app:cardCornerRadius="20dp">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <customfonts.MyTextView_Roboto_Black
+            android:id="@+id/answer_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginEnd="50dp"
+            android:text="100"
+           android:layout_alignRight="@+id/currency"
+            android:layout_marginStart="12dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/endColor"
+            android:textSize="50sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+    <TextView
+        android:id="@+id/currency"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+
+        android:text="$"
+        android:layout_marginStart="12dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="50sp"
+        android:textStyle="normal"
+        android:visibility="visible" />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_below="@+id/card_budget"
+        android:layout_height="60dp"
+        android:visibility="visible"
+        android:id="@+id/dropdown"
+        android:drawableTop="@drawable/ic_electric_keyboard"
+        android:drawableBottom="@drawable/ic_arrow_drop_down"
+        android:layout_alignParentEnd="true"
+
+
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:id="@+id/show"
+        android:visibility="visible"
+        android:drawableTop="@drawable/ic_electric_keyboard"
+        android:drawableBottom="@drawable/ic_arrow_drop_down"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+
+
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/category"
+        android:layout_margin="15dp"
+        android:visibility="gone"
+        android:layout_below="@+id/dropdown"
+        app:cardCornerRadius="20dp">
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="4"
+            android:rowCount="3"
+            >
+
+            <Button
+                android:id="@+id/groceries"
+                style="@style/calcNumber"
+                android:layout_width="8dp"
+                android:layout_height="16dp"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:background="@drawable/ic_groceries"
+
+                android:textColor="@color/colorText" />
+            <Button
+                android:id="@+id/transportation"
+                style="@style/calcNumber"
+                android:background="@drawable/ic_transport"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+
+                android:textColor="@color/colorText" />
+            <Button
+                android:id="@+id/clothing"
+                style="@style/calcNumber"
+                android:layout_width="5dp"
+                android:background="@drawable/ic_chlothes"
+                android:layout_height="5dp"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+
+                android:textColor="@color/colorText" />
+            <Button
+                android:id="@+id/daily_necessities"
+                android:background="@drawable/ic_dn"
+                style="@style/calcNumber"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="3"
+                android:layout_columnWeight="1"
+
+                android:textColor="@color/colorText" />
+            <Button
+                android:id="@+id/entertainment"
+                style="@style/calcNumber"
+                android:background="@drawable/ic_ent"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+
+                android:textColor="@color/colorText" />
+
+            <Button
+                android:id="@+id/communication"
+                style="@style/calcNumber"
+                android:background="@drawable/ic_com"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+
+                android:textColor="@color/colorText" />
+            <Button
+                android:id="@+id/rent"
+                style="@style/calcNumber"
+                android:background="@drawable/ic_rent"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:text="Rent"
+                android:textColor="@color/colorText" />
+            <Button
+                android:id="@+id/insurance"
+                style="@style/calcNumber"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_row="1"
+                android:background="@drawable/ic_insurance"
+                android:layout_rowWeight="1"
+                android:layout_column="3"
+                android:layout_columnWeight="1"
+                android:text="Insurance"
+                android:textColor="@color/colorText" />
+            <Button
+                android:id="@+id/lending"
+                style="@style/calcNumber"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_row="2"
+                android:layout_rowWeight="1"
+
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:text="Lending"
+                android:textColor="@color/colorText" />
+            <Button
+                android:id="@+id/debt_paid"
+                style="@style/calcNumber"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_row="2"
+                android:layout_rowWeight="1"
+                android:background="@drawable/ic_dept"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:text="Debt paid"
+                android:textColor="@color/colorText" />
+            <Button
+                android:id="@+id/investment"
+                style="@style/calcNumber"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_row="2"
+                android:layout_rowWeight="1"
+                android:background="@drawable/ic_invest"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:text="Investment"
+                android:textColor="@color/colorText" />
+            <Button
+                android:id="@+id/other"
+                style="@style/calcNumber"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_row="2"
+                android:background="@drawable/ic_other"
+                android:layout_rowWeight="1"
+                android:layout_column="3"
+                android:layout_columnWeight="1"
+                android:text="Other"
+                android:textColor="@color/colorText" />
+
+
+
+        </GridLayout>
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cal"
+        android:layout_below="@+id/dropdown"
+        android:visibility="visible"
+        android:layout_marginBottom="50dp"
+        app:cardCornerRadius="12dp">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:columnCount="3"
+                android:rowCount="4"
+                >
+
+                <!-- Row 1-->
+
+
+                <!-- Row 2-->
+                <Button
+                    android:id="@+id/btn_seven"
+                    style="@style/calcNumber"
+                    android:layout_width="11dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:text="7"
+                    android:textColor="@color/colorText" />
+
+                <Button
+                    android:id="@+id/btn_eight"
+                    style="@style/calcNumber"
+                    android:text="8"
+                    android:textColor="@color/colorText"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1" />
+
+                <Button
+                    android:id="@+id/btn_nine"
+                    style="@style/calcNumber"
+                    android:text="9"
+                    android:textColor="@color/colorText"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1" />
+
+                <!--
+                 <TextView
+                     android:id="@+id/btn_empty"
+                     style="@style/calcNumber"
+                     android:text="-"
+                     android:textColor="@color/colorText"
+                     android:layout_column="3"
+                     android:layout_columnWeight="1"
+                     android:layout_row="0"
+                     android:layout_rowWeight="1" />
+                         -->
+
+
+                <!-- Row 2-->
+
+                <Button
+                    android:id="@+id/btn_four"
+                    style="@style/calcNumber"
+                    android:layout_row="1"
+                    android:layout_rowWeight="1"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:text="4"
+                    android:textColor="@color/colorText" />
+
+                <Button
+                    android:id="@+id/btn_five"
+                    style="@style/calcNumber"
+                    android:text="5"
+                    android:textColor="@color/colorText"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:layout_rowWeight="1" />
+
+                <Button
+                    android:id="@+id/btn_six"
+                    style="@style/calcNumber"
+                    android:text="6"
+                    android:textColor="@color/colorText"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:layout_rowWeight="1" />
+                <!--
+                <TextView
+                    android:id="@+id/btn_submit2"
+                    style="@style/calcNumber"
+                    android:text="-"
+                    android:textColor="@color/colorText"
+                    android:layout_column="3"
+                    android:layout_columnWeight="1"
+                    android:layout_row="1"
+                    android:layout_rowWeight="1" />
+                    -->
+
+                <!-- Row 3-->
+                <Button
+                    android:id="@+id/btn_one"
+                    style="@style/calcNumber"
+                    android:text="1"
+                    android:textColor="@color/colorText"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_row="2"
+                    android:layout_rowWeight="1" />
+
+                <Button
+                    android:id="@+id/btn_two"
+                    style="@style/calcNumber"
+                    android:text="2"
+                    android:textColor="@color/colorText"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_row="2"
+                    android:layout_rowWeight="1" />
+
+                <Button
+                    android:id="@+id/btn_three"
+                    style="@style/calcNumber"
+                    android:text="3"
+                    android:textColor="@color/colorText"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:layout_row="2"
+                    android:layout_rowWeight="1" />
+
+                <!--
+                <TextView
+                    android:id="@+id/btn_submit1"
+                    style="@style/calcNumber"
+                    android:text="+"
+                    android:textColor="@color/colorText"
+                    android:layout_column="3"
+                    android:layout_columnWeight="1"
+                    android:layout_row="2"
+                    android:layout_rowWeight="1" />
+                        -->
+
+                <!-- Row 4-->
+                <Button
+                    android:id="@+id/btn_dot"
+                    style="@style/calcNumber"
+                    android:gravity="center"
+                    android:text="&#8226;"
+                    android:textColor="@color/colorText"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_row="3"
+                    android:layout_rowWeight="1" />
+
+                <Button
+                    android:id="@+id/btn_zero"
+                    style="@style/calcNumber"
+                    android:text="0"
+                    android:textColor="@color/colorText"
+                    android:layout_column="1"
+                    android:layout_columnWeight="1"
+                    android:layout_row="3"
+                    android:layout_rowWeight="1" />
+
+                <!--
+                <TextView
+                    android:id="@+id/btn_submit"
+                    style="@style/calcNumber"
+                    android:text="0"
+                    android:textColor="@color/colorText"
+                    android:layout_column="3"
+                    android:layout_columnWeight="1"
+                    android:layout_row="3"
+                    android:layout_rowWeight="1" />
+           -->
+
+
+                <Button
+
+                    android:layout_row="3"
+                    android:layout_rowWeight="1"
+                    style="@style/calcNumber"
+                    android:layout_column="2"
+                    android:layout_columnWeight="1"
+                    android:background="@color/startColor"
+                    android:enabled="true"
+                    android:text=""
+                    android:textColor="@color/colorText" />
+
+
+
+            </GridLayout>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>

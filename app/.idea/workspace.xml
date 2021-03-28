@@ -4,6 +4,9 @@
     <shared>
       <config>
         <device id="pixel_3a" />
+        <device id="pixel_3_xl" />
+        <device id="pixel_xl" />
+        <device id="pixel_2" />
       </config>
     </shared>
   </component>
@@ -13,140 +16,195 @@
   </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/OtherJavaFiles/InternetDialog.java" line="29" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/ActivityForgotPass.java" line="30" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1b3d4ea-0bdc-4ce9-b35c-a12a7e5a94db" name="Default Changelist" comment="commit">
-      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebaseui_firebase_ui_common_3_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebaseui_firebase_ui_common_6_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebaseui_firebase_ui_common_6_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebaseui_firebase_ui_database_3_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebaseui_firebase_ui_database_6_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebaseui_firebase_ui_database_6_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getbase_floatingactionbutton_1_10_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_machinarius_preferencefragment_0_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_19_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_19_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_19_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_19_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_collection_17_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_twotoasters_SectionCursorAdapter_library_1_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/BaseFragmentActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/CategoryEditActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/ExpenseEditActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/MainExpenseActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/SettingsActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/ExpenseDbHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/Expense_Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/Income_Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/CategoryEditFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/CategoryFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/DatePickerFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ExpenseEditFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ReportExpenseFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/SettingsExpenseFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/TodayFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/adapters/SectionExpenseAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/adapters/SimpleExpenseAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/providers/ExpensesContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/providers/ExpensesProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-mdpi/permission.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-mdpi/shield.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/fab_label_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_add.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_dialog_alert.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_menu_add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_menu_delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_menu_done.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_menu_filter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_nav_categories.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_nav_report.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_nav_settings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_nav_today.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_base.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_main_expense.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/card_deposit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/card_rent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/category_list_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/expense.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/expense_list_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/expense_report_section_header.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_category.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_category_edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_expense_edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_report.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_today.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/toolbar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/menu/category_list_item_context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/menu/drawer_view.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/menu/expense_list_item_context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/menu/fragment_category.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/menu/fragment_category_edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/menu/fragment_expense_edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/menu/fragment_report.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/menu/fragment_today.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/menu/report_filter_popup.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/values-ru/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/values/predefined_categories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/xml/preferences.xml" afterDir="false" />
+    <list default="true" id="c1b3d4ea-0bdc-4ce9-b35c-a12a7e5a94db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_akexorcist_RoundCornerProgressBar_2_0_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/ActivityEmailSent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/ActivityForgotPass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/ActivityRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/ActivitySetBudget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/ActivityStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/Budget_Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/FragmentBudget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/FragmentExpense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/FragmentIncome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/FragmentOverview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/FragmentSetBusget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/IncomeReportFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/adapters/CardTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/adapters/PageAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customfonts/Button_Roboto_Medium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customfonts/EditText_Roboto_Bold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customfonts/EditText_Roboto_Italic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customfonts/EditText_Roboto_Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customfonts/EditText_Roboto_Meidum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customfonts/EditText_Roboto_Regular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customfonts/MyTextView_Roboto_Black.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customfonts/MyTextView_Roboto_Bold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customfonts/MyTextView_Roboto_Italic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customfonts/MyTextView_Roboto_Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customfonts/MyTextView_Roboto_Medium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/customfonts/MyTextView_Roboto_Regular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/applogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/cat_bev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/cat_fish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/cat_four.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/cat_imgone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/cold_coffe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/detail_imgthree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/detail_imgtwo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/details_imgone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/grape_juice_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/guava_juice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/login_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/orange_juice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/pgination_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/red_juice_details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/toolbar_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/view_password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/wkt_three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable-hdpi/wkt_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bank.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/bg_starter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/border1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/brightness.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/btn_green_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/button_gradient.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/default_dot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/feedback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_account.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_add_chart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_arrow_drop_down.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_arrow_forward_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_arrow_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_brightness_1_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_check.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_chlothes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_com.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_control_panel1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_dept.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_discount.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_dn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_down_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_electric_keyboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_ent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_groceries.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_insurance.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_invest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_keyboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_keyboard_backspace_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_lendnig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_make_it_rain.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_menu_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_menu_custom_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_mobile_pay.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_personal_finance.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_personal_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_remove.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_rent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_report.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_right.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_savings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_search_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_sent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_transport.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ic_wallet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/linear1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/linear2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/main_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/money.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/notification_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/notification_earn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/notification_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/person.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/premium.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/redeem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/round_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/selected_dot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/spinner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/star.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/tab_selector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_forgot_pass.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_incomes_report.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_payment__details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_request_sent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_walkthrough.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/calc_item_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/card_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/card_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/card_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/card_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/card_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/card_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/card_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/card_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/card_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/card_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_budget.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_deadline_payments.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_expense.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_income.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_overview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_record.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_set_budget.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/income.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/input_budget.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/set_budget.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/set_budget_categories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/walkthrogh_one.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/walkthrogh_three.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/walkthrogh_two.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebaseui_firebase_ui_common_3_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebaseui_firebase_ui_common_6_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebaseui_firebase_ui_database_3_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_firebaseui_firebase_ui_database_6_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_19_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_19_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_19_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_collection_16_0_1_aar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/AccountFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/AccountFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/BottomNavigationBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/OtherJavaFiles/BottomNavigationBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/CustomProgressBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/OtherJavaFiles/CustomProgressBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/DarkModePrefManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/PrefManagers/DarkModePrefManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/GetBudgetFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/GetBudgetFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Home.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/HomeFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/InternetDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/OtherJavaFiles/InternetDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/InternetDialogActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/InternetDialogActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/PrefManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/PrefManagers/PrefManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/ProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/ProfileActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/ProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ProfileFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/RegisterActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/ReportFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ReportFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/SalesReportActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/SalesReportActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/SampleActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/SampleActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/SettingsActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/SettingsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/SettingsFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Settings_Fragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/Settings_Fragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/StartActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/StartActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/UserTransactionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/UserTransactionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/User_Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/User_Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/TestActivities/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/RegisterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/StartActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/StartActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/Expense_Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/Expense_Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/Income_Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/Income_Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/User_Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/User_Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/GetBudgetFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/GetBudgetFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ProfileFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ReportFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ReportFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/SettingsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/SettingsFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/layout-v4/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout-v4/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_accounts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_accounts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_internet_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_internet_dialog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_register.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_sales_report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_sales_report.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_send_values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_send_values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_start.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_start.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/app_bar_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/app_bar_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/card_popular_courses.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/card_popular_courses.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/card_sales.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/card_sales.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/content_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/content_profile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/dialog_no_internet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/dialog_no_internet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/fragment_settings_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_settings_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/layout/welcome_slide1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/welcome_slide1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/values-night/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values-night/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values-ru/strings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/res/xml/file_paths.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/xml/file_paths.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,88 +235,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/expense.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ReportFragment.java">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_profile.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="799">
+              <caret line="47" column="46" lean-forward="true" selection-start-line="43" selection-start-column="45" selection-end-line="47" selection-end-column="46" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/card_sales.xml">
           <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ProfileFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="51" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
+            <state relative-caret-position="512">
+              <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_sales_report.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1666">
-              <caret line="98" column="51" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-29/data/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/values/colors.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_profile.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="47" />
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="36" />
             </state>
           </provider>
+          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/res/values-night/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/HomeFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="114" selection-start-line="114" selection-end-line="114" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/GetBudgetFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2703">
-              <caret line="190" column="84" selection-start-line="190" selection-start-column="84" selection-end-line="190" selection-end-column="84" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/res/drawable/border1.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -266,9 +274,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="resourceFile" />
         <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -284,65 +292,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/BaseFragmentActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/CategoryEditActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/ExpenseEditActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/SettingsActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/adapters/SimpleExpenseAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/CategoryFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/DatePickerFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/SettingsExpenseFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/MainExpenseActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_main_expense.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_expense_edit.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/toolbar.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/adapters/SectionExpenseAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/providers/ExpensesContract.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/CategoryEditFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ExpenseEditFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ReportExpenseFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/TodayFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/providers/ExpensesProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/ExpenseDbHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/res/xml/file_paths.xml" />
-        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/OtherJavaFiles/InternetDialog.java" />
-        <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/card_deposit.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/card_rent.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/dialog_no_internet.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_start.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/welcome_slide1.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_send_values.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/Income_Data.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/StartActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/card_popular_courses.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/SettingsFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_settings.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/drawable/fab_label_background.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/drawable/ic_add.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/MainActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/HomeFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/app_bar_main.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/content_main.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/FragmentOverview.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/IncomeReportFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/income.xml" />
+        <option value="$PROJECT_DIR$/src/androidTest/java/customfonts/MyTextView_Roboto_Light.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_payment__details.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/customfonts/MyTextView_Roboto_Light.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/set_budget.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/ActivitySetBudget.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/RegisterActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/card_10.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/card_9.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/card_8.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/card_7.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/card_6.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/card_5.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/card_4.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/Expense_Data.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/expense.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/card_sales.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_test.xml" />
         <option value="$PROJECT_DIR$/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/values-night/colors.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ReportFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/calc_item_main.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/ic_transport.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/ic_chlothes.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/ic_dn.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/ic_ent.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/ic_lendnig.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/ic_dept.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/ic_invest.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/ic_insurance.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/ic_groceries.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/ic_keyboard.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/StartActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/input_budget.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/GetBudgetFragment.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_sales_report.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/FragmentIncome.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_transfer.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_budget.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/Budget_Data.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/card_3.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/card_1.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/content_main.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/FragmentBudget.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/card_2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_overview.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_income.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_expense.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/FragmentExpense.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ProfileFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_profile.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/fragment_profile.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-27" />
-    <option name="y" value="-25" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -352,10 +359,95 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ModernLogin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ModernLogin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModernLogin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ModernLogin" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModernLogin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ModernLogin" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModernLogin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ModernLogin" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModernLogin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ModernLogin" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModernLogin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ModernLogin" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="customfonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ModernLogin" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="ModernLogin" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="ModernLogin" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="modernlogin" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModernLogin" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="modernlogin" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Activities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModernLogin" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="modernlogin" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ModernLogin" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,7 +459,7 @@
     <property name="ExportApk.SignV2" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../TeamMeetingSchedule" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/res/drawable" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
@@ -384,11 +476,11 @@
       <recent name="com.appsnipp.modernlogin" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\Diploma\New folder\ModernLogin-appsnipp.com\ModernLogin\app\src\main\res\drawable-mdpi" />
-      <recent name="C:\Users\User\Desktop\Diploma\New folder\ModernLogin-appsnipp.com\ModernLogin\app\src\main\res\layout" />
       <recent name="C:\Users\User\Desktop\Diploma\New folder\ModernLogin-appsnipp.com\ModernLogin\app\src\main\res\drawable" />
-      <recent name="C:\Users\User\Desktop\Diploma\New folder\ModernLogin-appsnipp.com\ModernLogin\app\src\main\java\com\appsnipp\modernlogin" />
-      <recent name="C:\Users\User\Desktop\Diploma\New folder\ModernLogin-appsnipp.com\ModernLogin\app\src\main\java\com\appsnipp\modernlogin\Fragments" />
+      <recent name="C:\Users\User\Desktop\Diploma\New folder\ModernLogin-appsnipp.com\ModernLogin\app\src\main\res\layout" />
+      <recent name="C:\Users\User\Desktop\Diploma\New folder\ModernLogin-appsnipp.com\ModernLogin\app\src\main\java" />
+      <recent name="C:\Users\User\Desktop\Diploma\New folder\ModernLogin-appsnipp.com\ModernLogin\app\src\java" />
+      <recent name="C:\Users\User\Desktop\Diploma\New folder\ModernLogin-appsnipp.com\ModernLogin\app\src\androidTest\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -483,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575922347211</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="* Test interface added to push information to the database such as:&#10;  -Expense: category name , amount, date&#10;  -Income: category name , amount, date&#10;* ListView added to provide database information about the transactions in the Overview interface">
+      <created>1583523642626</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583523642626</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -500,7 +599,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.118336886" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14978679" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -512,11 +611,11 @@
       <window_info anchor="bottom" id="TODO" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.3672806" />
-      <window_info anchor="bottom" id="Logcat" order="5" weight="0.032502707" />
-      <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.23943663" />
+      <window_info anchor="bottom" id="Logcat" order="5" weight="0.032822758" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="7" />
-      <window_info active="true" anchor="bottom" id="Build" order="8" visible="true" weight="0.10184182" />
+      <window_info anchor="bottom" id="Build" order="8" visible="true" weight="0.032502707" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.06608884" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.4539545" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -524,372 +623,418 @@
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" weight="0.28304905" />
-      <window_info anchor="right" id="Preview" order="5" weight="0.36993605" />
+      <window_info active="true" anchor="right" id="Preview" order="5" visible="true" weight="0.3432836" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.071428575" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.032502707" />
+      <window_info anchor="bottom" id="TODO" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.061755147" />
+      <window_info anchor="bottom" id="Logcat" order="5" weight="0.03575298" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="7" />
+      <window_info anchor="bottom" id="Build" order="8" visible="true" weight="0.23076923" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.06608884" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.4539545" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" weight="0.28304905" />
+      <window_info active="true" anchor="right" id="Preview" order="5" visible="true" weight="0.38219616" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="* Test interface added to push information to the database such as:&#10;  -Expense: category name , amount, date&#10;  -Income: category name , amount, date&#10;* ListView added to provide database information about the transactions in the Overview interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Test interface added to push information to the database such as:&#10;  -Expense: category name , amount, date&#10;  -Income: category name , amount, date&#10;* ListView added to provide database information about the transactions in the Overview interface" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/sample_activity.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_test.xml">
-      <provider editor-type-id="android-designer2" />
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_record.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_start.xml">
       <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/income.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
+        <state relative-caret-position="391">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/welcome_slide1.xml">
       <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_incomes_report.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="565">
+          <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/FragmentSetBusget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/PrefManagers/PrefManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/IncomeReportFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="204">
+          <caret line="69" column="56" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/PrefManagers/DarkModePrefManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_payment__details.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="283">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-29/android/widget/EditText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-732">
-          <caret line="106" column="20" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/RegisterActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1201">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/User_Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/b9ebb04df2cb0cad4419af3c658690bc82aa5706/fragment-1.1.0-sources.jar!/androidx/fragment/app/FragmentManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="1823" selection-start-line="1823" selection-end-line="1823" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cf5ed237a320e2944c1df170489efde6/jetified-android-DecoView-charting-v0.9.3/jars/classes.jar!/com/hookedonplay/decoviewlib/charts/SeriesItem.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="86" column="17" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
-          <folding>
-            <element signature="e#2601#2602#0" expanded="true" />
-            <element signature="e#2638#2639#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fe0b5d2b7769f905125e21f169fc60ca/jetified-firebase-database-17.0.0/jars/classes.jar!/com/google/firebase/database/core/ValueEventRegistration.class">
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_rent.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_com.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_other.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_insurance.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_invest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_dept.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_lendnig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_ent.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_groceries.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_transport.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_chlothes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_dn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-29/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="800" column="13" selection-start-line="800" selection-start-column="13" selection-end-line="800" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/ActivityForgotPass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/calc_item_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="3570">
+          <caret line="210" column="40" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="210" selection-end-column="40" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-29/android/widget/RelativeLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_keyboard.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/input_budget.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/buttonstyle.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/GetBudgetFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/DatePickerFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="66" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/StartActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-          <folding>
-            <element signature="e#4565#4566#0" expanded="true" />
-            <element signature="e#4618#4619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/Income_Data.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#5051#5052#0" expanded="true" />
+            <element signature="e#5104#5105#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_send_values.xml">
-      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+        <state relative-caret-position="161">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_settings.xml">
       <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-29/data/res/layout/simple_spinner_dropdown_item.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/SettingsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="811">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/nav_header_main.xml">
       <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/toolbar.xml">
-      <provider editor-type-id="android-designer2" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/Income_Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="102">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/menu/master_bottom_navigation.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/values/styles.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/Budget_Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        <state relative-caret-position="816">
+          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/fab_label_background.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/FragmentIncome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0/b9ebb04df2cb0cad4419af3c658690bc82aa5706/fragment-1.1.0-sources.jar!/androidx/fragment/app/Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="809" column="6" lean-forward="true" selection-start-line="809" selection-start-column="6" selection-end-line="809" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ic_add.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Activities/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/credit_card.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/card_rent.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/app_bar_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="214">
+          <caret line="126" column="127" lean-forward="true" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="127" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/content_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/FragmentBudget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="235" column="71" lean-forward="true" selection-start-line="235" selection-start-column="71" selection-end-line="235" selection-end-column="71" />
+        <state relative-caret-position="691">
+          <caret line="194" column="86" lean-forward="true" selection-start-line="194" selection-start-column="86" selection-end-line="194" selection-end-column="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_report.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/card_3.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/expense_report_section_header.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/card_2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ReportExpenseFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/card_1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="294" column="56" selection-start-line="294" selection-start-column="56" selection-end-line="294" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="621">
+          <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/card_popular_courses.xml">
       <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="43" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Database/Expense_Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/card_frutorials.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_accounts.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="82" column="54" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7c1b7712293eca3efa95a3298abb9169/firebase-database-19.2.0/jars/classes.jar!/com/google/firebase/database/Query.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/expense.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/card_sales.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="51" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_sales_report.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="98" column="51" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-29/data/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/values-night/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/HomeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="158">
+          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/GetBudgetFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_budget.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2703">
-          <caret line="190" column="84" selection-start-line="190" selection-start-column="84" selection-end-line="190" selection-end-column="84" />
+        <state relative-caret-position="-132">
+          <caret line="75" column="33" lean-forward="true" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_overview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_expense.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" column="52" selection-start-line="88" selection-start-column="52" selection-end-line="88" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/FragmentExpense.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="155" selection-start-line="154" selection-end-line="155" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ReportFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="753">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_income.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="88" column="25" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_settings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/border1.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appsnipp/modernlogin/Fragments/ProfileFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="76" column="47" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_profile.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/fragment_profile.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="46" lean-forward="true" selection-start-line="43" selection-start-column="45" selection-end-line="47" selection-end-column="46" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
   </component>
 </project>

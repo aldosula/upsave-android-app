@@ -8,6 +8,33 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="calcAction">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorGray</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="calcNumber">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="calcMoreFormula">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorFormulasBg</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+    </style>
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -220,7 +247,7 @@
         <item name="android:textColor">@color/whiteTextColor</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">18sp</item>
-        <item name="android:layout_below">@id/dateTextView</item>
+
     </style>
 
 </resources>

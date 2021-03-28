@@ -116,7 +116,7 @@ Button reg_button;
                                         rname,
                                         remail,
                                         rphone,
-                                        0.00f
+                                        "0.00"
                                 );
 
                                 FirebaseDatabase.getInstance().getReference()
@@ -127,7 +127,7 @@ Button reg_button;
                                         if (task.isSuccessful()) {
 
                                             Toast.makeText(RegisterActivity.this, "User Created.", Toast.LENGTH_SHORT).show();
-                                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                                            startActivity(new Intent(getApplicationContext(), ActivitySetBudget  .class));
 
                                         } else {
                                             Toast.makeText(RegisterActivity.this, "Error :" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();

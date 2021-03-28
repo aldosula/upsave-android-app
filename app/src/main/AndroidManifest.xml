@@ -39,6 +39,15 @@
             android:name=".Activities.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name=".Activities.ActivityRecord"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.ActivityForgotPass"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.ActivityEmailSent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".Activities.RegisterActivity"
             android:theme="@style/AppTheme.NoActionBar" /> <!-- android:windowSoftInputMode="adjustPan" -->
 

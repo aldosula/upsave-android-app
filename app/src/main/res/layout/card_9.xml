@@ -1,0 +1,70 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/designMainColor"
+        app:cardCornerRadius="16dp">
+
+        <ImageView
+            android:id="@+id/img9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:maxWidth="70dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/android_developer" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="N/A"
+            android:id="@+id/category_name9"
+            android:textColor="@color/miniTitle"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/expense_amount9"
+            android:textSize="21sp"
+            android:text=" $ 0.00"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"
+            android:drawableRight="@drawable/ic_right_icon"
+          />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textColor="@color/miniDescription"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:maxLines="3"
+            android:layout_marginBottom="10dp"
+         />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+

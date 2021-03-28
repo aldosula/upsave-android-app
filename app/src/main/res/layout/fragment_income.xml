@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:padding="30dp">
+
+        <Button
+            android:layout_width="55dp"
+            android:id="@+id/save"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstyle"
+            android:drawableLeft="@drawable/ic_check"
+            android:layout_alignParentEnd="true"
+
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/save"
+            android:id="@+id/rl1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Amount"/>
+            <EditText
+                android:id="@+id/income"
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:hint="0.00"
+                android:inputType="numberDecimal"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_below="@id/rl1"
+            android:id="@+id/rl2"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="Category"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:id="@+id/category_income"
+                android:layout_marginTop="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_height="wrap_content"
+                android:hint="Category"
+
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl3"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/rl2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                />
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/date"
+                android:background="@color/transparent"
+                android:drawableRight="@drawable/ic_arrow_drop_down"
+                />
+        </RelativeLayout>
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/buttonstyle"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:text="Save"
+            android:id="@+id/submit_income"
+            android:layout_centerHorizontal="true"
+            android:layout_height="50dp"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

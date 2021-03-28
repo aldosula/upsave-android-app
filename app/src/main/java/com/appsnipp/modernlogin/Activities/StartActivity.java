@@ -28,8 +28,10 @@ public class StartActivity extends AppCompatActivity {
     private LinearLayout dotsLayout;
     private TextView[] dots;
     private int[] layouts;
-    private TextView btnSkip;
+
+    private Button getStarted;
     private Button loginBtn;
+    private Button nextBtn;
     private PrefManager prefManager;
 
     @Override
@@ -39,9 +41,9 @@ public class StartActivity extends AppCompatActivity {
         // Checking for first time launch - before calling setContentView()
         prefManager = new PrefManager(this);
         if (!prefManager.isFirstTimeLaunch()) {
-            launchHomeScreen();
-            finish();
-        }
+          // launchHomeScreen();
+           //finish();
+       }
 
         // Making notification bar transparent
         if (Build.VERSION.SDK_INT >= 21) {
@@ -52,17 +54,20 @@ public class StartActivity extends AppCompatActivity {
 
         viewPager =  findViewById(R.id.view_pager);
         dotsLayout =  findViewById(R.id.layoutDots);
-        btnSkip =  findViewById(R.id.btn_skip);
+        //btnSkip =  findViewById(R.id.btn_skip);
         loginBtn = findViewById(R.id.loginBtn);
+        nextBtn = findViewById(R.id.nextBtn);
+        getStarted = findViewById(R.id.getStarted);
+
 
 
         // layouts of all welcome sliders
         // last layout is dummy for handling exit on slide
         layouts = new int[]{
-                R.layout.welcome_slide1,
-                R.layout.welcome_slide2,
-                R.layout.welcome_slide3,
-                R.layout.welcome_slide4};
+                R.layout.walkthrogh_one,
+                R.layout.walkthrogh_two,
+                R.layout.walkthrogh_three,
+                };
 
         // adding bottom dots
         addBottomDots(0);
@@ -74,34 +79,48 @@ public class StartActivity extends AppCompatActivity {
         viewPager.setAdapter(myViewPagerAdapter);
         viewPager.addOnPageChangeListener(viewPagerPageChangeListener);
 
-        btnSkip.setOnClickListener(new View.OnClickListener() {
+        loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                viewPager.setCurrentItem(layouts.length -1);
                // launchHomeScreen();
+            }
+        });
+        getStarted.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startLoginActivity();
+                finish();
             }
         });
 
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startLoginActivity();
-                finish();
+                viewPager.setCurrentItem(layouts.length -1);
+                hideButtons();
             }
         });
-//        btnNext.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                // checking for last page
-//                // if last page home screen will be launched
-//                int current = getItem(+1);
-//                if (current < layouts.length) {
-//                    // move to next screen
-//                    viewPager.setCurrentItem(current);
-//                } else {
-//                    launchHomeScreen();
-//                }
-//            }
-//        });
+
+
+        nextBtn.setOnClickListener(new View.OnClickListener() {
+           @Override
+            public void onClick(View v) {
+               // checking for last page
+                // if last page home screen will be launched
+               int current = getItem( +1);
+               if (current < layouts.length) {
+                   // move to next screen
+                  viewPager.setCurrentItem(current);
+                } else {
+                   viewPager.setCurrentItem(layouts.length -1);
+                   hideButtons();
+
+                  // launchHomeScreen();
+              }
+           }
+        });
+
     }
 
     private void addBottomDots(int currentPage) {
@@ -122,7 +141,7 @@ public class StartActivity extends AppCompatActivity {
         }
 
         //hiding the last dot , as the last layout is dummy for handling exit on last page
-        dots[layouts.length-1].setVisibility(View.GONE);
+       // dots[layouts.length-1].setVisibility(View.GONE);
 
         if (dots.length > 0){
             dots[currentPage].setWidth(70);
@@ -132,6 +151,14 @@ public class StartActivity extends AppCompatActivity {
 
     private int getItem(int i) {
         return viewPager.getCurrentItem() + i;
+    }
+
+    private void hideButtons(){
+
+        loginBtn.setVisibility(View.GONE);
+        nextBtn.setVisibility(View.GONE);
+        getStarted.setVisibility(View.VISIBLE);
+
     }
 
     private void startLoginActivity(){
@@ -156,13 +183,13 @@ public class StartActivity extends AppCompatActivity {
             if (position == layouts.length - 1) {
                 // last page. make button text to GOT IT
 //                btnNext.setText(getString(R.string.start));
-                btnSkip.setText("SKIP INTRO");
-                launchHomeScreen();
+              //  btnSkip.setText("SKIP INTRO");
+                //launchHomeScreen();
 //                btnSkip.setVisibility(View.GONE);
             } else {
                 // still pages are left
 //                btnNext.setText(getString(R.string.next));
-                btnSkip.setVisibility(View.VISIBLE);
+                //btnSkip.setVisibility(View.VISIBLE);
             }
         }
 

@@ -16,6 +16,50 @@
     <string name="dialog_cancel">Cancel</string>
     <string name="LOADING">Loading...</string>
 
+
+    <string-array name="expense_categoires">
+        <item>Groceries</item>
+        <item>Transportation</item>
+        <item>Clothing</item>
+        <item>Daily necessities</item>
+        <item>Entertainment</item>
+        <item>Communication</item>
+        <item>Rent</item>
+        <item>Insurance</item>
+        <item>Lending</item>
+        <item>Debt paid</item>
+        <item>Investment</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="income_categoires">
+        <item>Salary</item>
+        <item>Gift cash</item>
+        <item>Borrowing</item>
+        <item>Dept collected</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="budgets">
+        <item>Needs</item>
+        <item>Wants</item>
+        <item>Savings</item>
+    </string-array>
+
+
+    <string name="sin_inv">sin<sup><small>-1</small></sup></string>
+    <string name="cos_inv">cos<sup><small>-1</small></sup></string>
+    <string name="tan_inv">tan<sup><small>-1</small></sup></string>
+    <string name="cot_inv">cot<sup><small>-1</small></sup></string>
+    <string name="x_cube">x<sup><small>3</small></sup></string>
+    <string name="exp">Exp</string>
+    <string name="mod">Mod</string>
+    <string name="summation">&#8721;</string>
+    <string name="log_base">log<sub><small>x</small></sub></string>
+    <string name="x_inv">x<sup><small>-1</small></sup></string>
+
+
+
     <!--onboarding designs-->
     <string name="onboardingWelcomeContent">Manage your everyday budget and create a saving plan that fits your needs </string>
     <string name="onboardingSpinWinContent">>Find your favorite products and compare prices from different websites and storesCollect UpCoins by saving money and convert them to real currency</string>
@@ -45,8 +89,6 @@
     <string name="dialog_permission_title">Grant Permissions</string>
     <string name="dialog_permission_message">This app needs permission to use this feature. You can grant them in app settings.</string>
     <string name="go_to_settings">GOTO SETTINGS</string>
-
-
 
 
     <string name="nav_today">Today</string>
@@ -138,14 +180,6 @@
     <string name="cat_presents">Presents</string>
     <string name="cat_sports">Sports</string>
     <string name="cat_transportation">Transportation</string>
-
-
-
-
-
-
-
-
 
 
     <!-- TODO: Remove or change this placeholder text -->

@@ -49,6 +49,7 @@ public class LoginActivity extends AppCompatActivity {
     GoogleSignInClient mGoogleSignInClient;
     SignInButton mGoogleButton;
     ProgressBar progressBar;
+    Button forgot_pass;
 
 
 
@@ -63,7 +64,16 @@ public class LoginActivity extends AppCompatActivity {
         text = findViewById(R.id.name);
         image = findViewById(R.id.image);
         progressBar = findViewById(R.id.progressBar);
+        forgot_pass = findViewById(R.id.forgot_pass);
 
+
+        forgot_pass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                forgotPass();
+
+            }
+        });
 
         progressBar.setVisibility(View.INVISIBLE);
         mGoogleButton.setOnClickListener(new View.OnClickListener() {
@@ -154,6 +164,12 @@ public class LoginActivity extends AppCompatActivity {
     private void signIn() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
+    }
+
+    private void forgotPass(){
+        startActivity(new Intent(this, ActivityForgotPass.class));
+        finish();
+
     }
 
 

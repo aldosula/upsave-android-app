@@ -33,11 +33,11 @@
                     android:text="Already \nhave an \nAccount?"/>
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_register_hero"
+                    android:layout_width="221dp"
+                    android:layout_height="250dp"
                     android:layout_alignParentTop="true"
-                    android:layout_alignParentRight="true"/>
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_make_it_rain" />
             </RelativeLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -65,10 +65,13 @@
                     android:maxLines="1" />
             </com.google.android.material.textfield.TextInputLayout>
 
-            <TextView
+            <Button
                 style="@style/viewParent"
                 android:text="Forgot Password?"
+                android:id="@+id/forgot_pass"
                 android:textColor="@color/primaryTextColor"
+                android:background="@android:color/transparent"
+                android:textAllCaps="false"
                 android:textSize="@dimen/newsMoreTextSize"
                 android:layout_gravity="end"
                 android:layout_marginTop="10dp"/>
@@ -130,11 +133,13 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:visibility="gone"
                     android:src="@drawable/ic_facebook"/>
                 <com.google.android.gms.common.SignInButton
                     android:id="@+id/google_login_button"
-                    android:layout_width="wrap_content"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
+
                     android:src="@drawable/ic_google_plus"
                     android:layout_marginLeft="10dp"
                     android:background="@android:color/transparent"/>

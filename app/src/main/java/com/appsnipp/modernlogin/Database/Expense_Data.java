@@ -8,11 +8,11 @@ import java.util.Date;
 
 public class Expense_Data {
 
-    private String category;
-    private String expense;
+    private String category= "N/A";
+    private String expense= "0.00";
     private String expense_nr;
     private Calendar calendar ;
-    private String expense_date;
+    private String expense_date=" ";
 
 
     public String getExpense_date() {

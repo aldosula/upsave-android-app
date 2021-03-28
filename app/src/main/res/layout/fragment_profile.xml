@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#D7D7D7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="500dp"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/linear1">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileimage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+           android:layout_marginTop="30dp"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/person"/>
+
+        <TextView
+            android:id="@+id/profilename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="180dp"
+            android:textSize="28dp"
+        android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/profileemail"
+            android:layout_below="@+id/profilename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in to your account to ensure data security and avoid data loss"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="180dp"
+            android:textStyle="bold"/>
+      <Button
+          android:layout_width="350dp"
+          android:layout_height="wrap_content"
+          android:text="Premium"
+          android:layout_marginTop="30dp"
+          android:layout_marginBottom="100dp"
+        android:layout_below="@+id/profileemail"
+          android:layout_marginLeft="65dp"
+          android:paddingLeft="30dp"
+          android:background="@drawable/button"/>
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="370dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="-70dp"
+            android:padding="20dp"
+            android:id="@+id/rl1"
+            android:layout_gravity="center"
+            android:alpha="0.85"
+            android:background="@drawable/linear2"
+           >
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/bank"
+                android:layout_marginLeft="35dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saving Plan"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/money"
+                android:layout_marginLeft="160dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Budgets"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="150dp"
+                android:textColor="#000000"/>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/setting"
+                android:layout_marginLeft="260dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Setting"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="250dp"
+                android:textColor="#000000"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="370dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/linear2">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/border1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Accounts (1)"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#000000"
+                android:textSize="15dp"/>
+        </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.00"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="50dp"
+                android:textColor="#000000"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Net Assets"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="40dp"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.00"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="160dp"
+                android:textColor="#000000"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Assets"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="140dp"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.00"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="265dp"
+                android:textColor="#000000"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Liabilities"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="250dp"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+<RelativeLayout
+    android:layout_width="370dp"
+    android:layout_height="200dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="80dp"
+    android:layout_gravity="center"
+    android:background="@drawable/linear2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/border1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Common Functions"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#000000"
+                android:textSize="15dp"/>
+        </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Proflie"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="30dp"/>
+
+     <ImageView
+    android:layout_width="45dp"
+    android:layout_height="45dp"
+    android:src="@drawable/edit"
+    android:layout_marginTop="42dp"
+    android:layout_marginLeft="45dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Currency"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="175dp"/>
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/redeem"
+        android:layout_marginTop="42dp"
+        android:layout_marginLeft="180dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Categories"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="270dp"/>
+
+    <ImageView
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="42dp"
+        android:src="@drawable/brightness"
+        android:layout_marginLeft="300dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help and Feedback"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+       android:layout_marginTop="120dp"
+        android:layout_marginLeft="45dp"
+        android:src="@drawable/feedback"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="190dp"/>
+
+    <ImageView
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="185dp"
+        android:src="@drawable/star"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

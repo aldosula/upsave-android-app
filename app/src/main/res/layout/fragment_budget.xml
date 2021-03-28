@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:padding="30dp">
+
+        <Button
+            android:layout_width="55dp"
+            android:id="@+id/save"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstyle"
+            android:drawableLeft="@drawable/ic_check"
+            android:layout_alignParentEnd="true"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/save"
+            android:id="@+id/rl1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Amount"/>
+            <EditText
+                android:id="@+id/budget"
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:hint="0.00"
+                android:inputType="numberDecimal"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+       <!-- <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_below="@id/rl1"
+            android:id="@+id/rl2"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"
+                android:text="Select Categories"/>
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="All"
+                android:textSize="16sp"
+                android:gravity=""
+                android:textAllCaps="false"
+                android:id="@+id/categories"
+                android:background="@color/transparent"
+                android:drawableRight="@drawable/ic_arrow_drop_down"
+                />
+        </RelativeLayout>-->
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl3"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/rl1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"
+                android:text="End Date"
+                />
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/date"
+                android:text="Set Date"
+                android:gravity=""
+                android:textAllCaps="false"
+                android:background="@color/transparent"
+                android:drawableRight="@drawable/ic_arrow_drop_down"
+                />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl4"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/rl3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"
+                android:text="Budget Overspent"
+                />
+            <Switch
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/notify1"
+                android:text="Notify when the amount exceeds the budget"
+                android:background="@color/transparent"
+
+                />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl5"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/rl4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"
+                android:text="Budget Overspending"
+                />
+            <Switch
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/notify2"
+                android:text="Notify when budget is being overspent"
+                android:background="@color/transparent"
+
+                />
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/buttonstyle"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:text="Save"
+            android:id="@+id/submit_value"
+            android:layout_centerHorizontal="true"
+            android:layout_height="50dp"/>
+
+
+    </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

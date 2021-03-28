@@ -16,14 +16,19 @@ import com.appsnipp.modernlogin.R;
 import com.firebase.ui.database.FirebaseListAdapter;
 import com.firebase.ui.database.FirebaseListOptions;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
+import com.google.firebase.database.ValueEventListener;
 
 public class ReportFragment extends Fragment {
 
     ListView  lv;
     FirebaseListAdapter adapter;
-
+    private TextView total_expense_tm, total_expense_tw;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -31,6 +36,8 @@ public class ReportFragment extends Fragment {
         View view =inflater.inflate(R.layout.activity_sales_report, container, false);
 
         lv = view.findViewById(R.id.listView);
+        total_expense_tm = view.findViewById(R.id.total_expense_this_month);
+        total_expense_tw = view.findViewById(R.id.total_expense_this_week);
 
         Query query = FirebaseDatabase.getInstance().getReference()
                 .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
@@ -41,6 +48,35 @@ public class ReportFragment extends Fragment {
                 .setQuery(query, Expense_Data.class)
                 .build();
 
+
+        DatabaseReference db = FirebaseDatabase.getInstance().getReference()
+                .child(FirebaseAuth.getInstance().getCurrentUser().getUid());
+
+        db.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                try {
+                    String te_tm = dataSnapshot.child("total expense").getValue().toString();
+
+                    String text_format  = "$ "+te_tm;
+
+                    total_expense_tm.setText(text_format);
+                    total_expense_tw.setText(text_format);
+                }catch (NullPointerException e){
+
+                    String txt_format  = "0";
+
+                    total_expense_tm.setText(txt_format);
+                    total_expense_tw.setText(txt_format);
+
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
         adapter = new FirebaseListAdapter(options) {
             @Override
             protected void populateView(@NonNull View v, @NonNull Object model, int position) {

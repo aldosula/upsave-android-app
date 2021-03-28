@@ -17,6 +17,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 
+import com.appsnipp.modernlogin.Fragments.FragmentOverview;
 import com.appsnipp.modernlogin.PrefManagers.DarkModePrefManager;
 import com.appsnipp.modernlogin.Fragments.GetBudgetFragment;
 import com.appsnipp.modernlogin.Fragments.HomeFragment;
@@ -66,7 +67,7 @@ public class MainActivity extends AppCompatActivity
                     return true;
                 case R.id.navigationMyCourses:
                     //fragment = new ReportFragment();
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new ReportFragment()).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new FragmentOverview()).commit();
                     return true;
                 case R.id.navigationHome:
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new HomeFragment()).commit();

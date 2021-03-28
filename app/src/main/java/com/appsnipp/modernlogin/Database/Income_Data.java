@@ -1,13 +1,22 @@
 package com.appsnipp.modernlogin.Database;
 
 public class Income_Data {
-    private String income;
-    private String income_cat;
+    private String income = "0.00";
+    private String income_cat= "N/A";
     private  String income_nr;
+    private String income_date= " ";
 
     public void Income_Data(){
 
 
+    }
+
+    public String getIncome_date() {
+        return income_date;
+    }
+
+    public void setIncome_date(String income_date) {
+        this.income_date = income_date;
     }
 
     public String getIncome() {

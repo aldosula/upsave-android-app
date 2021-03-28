@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_icon_starter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_starter" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="299dp"
+            android:layout_height="212dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="@dimen/dimen_20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_wallet" />
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="normal"
+
+            android:textColor="#23203f"
+            android:layout_marginTop="18dp"
+            android:letterSpacing="-0.01"
+            android:lineSpacingExtra="25sp"
+            android:text="Set Your Budget"
+            android:layout_marginBottom="3dp"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputEmail"
+            style="@style/parent"
+
+
+            android:layout_height="86dp"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+
+            <EditText
+                android:id="@+id/setBudget"
+                style="@style/modifiedEditText"
+                android:hint="Place budget"
+                android:inputType="number"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:textColor="#716f87"
+            android:letterSpacing="-0.01"
+            android:lineSpacingExtra="9.1sp"
+            android:text="Start saving by placing your monthly budget "
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/getStarted"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Let's GO!"
+        android:textStyle="bold"
+        android:enabled="false"
+        android:visibility="gone"
+        android:textSize="7pt"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:background="#536dfe"
+        />
+
+
+</RelativeLayout>

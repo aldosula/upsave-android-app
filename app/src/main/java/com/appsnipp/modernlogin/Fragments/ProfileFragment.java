@@ -18,8 +18,11 @@ import com.bumptech.glide.Glide;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -34,14 +37,14 @@ public class ProfileFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.activity_profile, container, false);
+        View view = inflater.inflate(R.layout.fragment_profile, container, false);
 
 
         name = view.findViewById(R.id.profilename);
         email = view.findViewById(R.id.profileemail);
         profilepic = view.findViewById(R.id.profileimage);
         fAuth = FirebaseAuth.getInstance();
-        backHome = view.findViewById(R.id.backtohome);
+
         databaseReference = FirebaseDatabase.getInstance().getReference();
         GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(view.getContext());
         if (acct != null) {
@@ -60,24 +63,31 @@ public class ProfileFragment extends Fragment {
             email.setText(personEmail);
             Glide.with(ProfileFragment.this.getActivity()).load(String.valueOf(personPhoto)).into(profilepic);
 
+        } else {
+
+            DatabaseReference db = FirebaseDatabase.getInstance().getReference().child(FirebaseAuth.getInstance().getCurrentUser().getUid());
+
+            db.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                    String PersonName = dataSnapshot.child("name").getValue().toString();
+                    String PersonEmail = dataSnapshot.child("email").getValue().toString();
+
+                    name.setText(PersonName);
+                    email.setText(PersonEmail);
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                }
+            });
+
         }
 
 
 
-        backHome.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Fragment fragment = null;
-                switch (v.getId()) {
-                    // ...
-                    case R.id.backtohome:
-                        fragment = new HomeFragment();
-                        replaceFragment(fragment);
-                        break;
-                    // ...
-                }
-            }
-        });
+
 
         return view;
     }

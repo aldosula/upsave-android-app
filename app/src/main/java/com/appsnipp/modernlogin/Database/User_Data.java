@@ -1,10 +1,12 @@
 package com.appsnipp.modernlogin.Database;
 
 public class User_Data {
-    public String name;
-    public String email;
-    public String phone;
-    public float budget = 0.00f;
+    public String name = "user";
+    public String email= "user";
+    public Expense_Data expense_data;
+    public  Income_Data income_data;
+    public String phone = "0";
+    public String budget = "0.00";
 
 
 
@@ -12,9 +14,10 @@ public class User_Data {
 
     }
 
-    public User_Data(String name, String email, String phone, float budget) {
+    public User_Data(String name, String email, String phone, String budget) {
         this.name = name;
         this.email = email;
+
         this.phone = phone;
         this.budget = budget;
 
@@ -27,7 +30,9 @@ public class User_Data {
 
     }
 
-    public User_Data(float budget){
+
+
+    public User_Data(String budget){
         this.budget = budget;
     }
 
@@ -43,5 +48,5 @@ public class User_Data {
         this.phone = phone;
     }
 
-    public void setBudget(float budget) { this.budget = budget;}
+    public void setBudget(String budget) { this.budget = budget;}
 }

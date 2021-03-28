@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_icon_starter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_starter" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="254dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="@dimen/dimen_20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_savings" />
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="normal"
+            android:textColor="#23203f"
+            android:layout_marginTop="18dp"
+            android:letterSpacing="-0.01"
+            android:lineSpacingExtra="25sp"
+            android:text="Welcome to UpSave"
+            />
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:textColor="#716f87"
+            android:layout_marginTop="18dp"
+            android:letterSpacing="-0.01"
+            android:lineSpacingExtra="9.1sp"
+            android:text="Manage your finances in one place and let AI help organise your budget based in your preferences  "
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

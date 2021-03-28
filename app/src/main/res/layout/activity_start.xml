@@ -12,23 +12,22 @@
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="9"/>
+        android:layout_weight="11"/>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="vertical"
-        android:layout_weight="3"
+        android:layout_weight="1"
         android:gravity="center">
 
 
         <LinearLayout
             android:id="@+id/layoutDots"
-            android:layout_width="match_parent"
+            android:layout_width="100dp"
             android:layout_height="@dimen/dots_height"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
             android:orientation="horizontal">
 
             <TextView
@@ -43,33 +42,60 @@
                 android:layout_width="35dp"
                 android:layout_height="5dp"
                 android:background="@drawable/onboarding_dotunselected"/>
+
+
         </LinearLayout>
 
         <Button
             android:id="@+id/loginBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
             android:layout_gravity="center"
-            android:background="@drawable/onboarding_button"
-            android:text="Next"
-            android:textColor="@color/whiteTextColor"
-            android:textSize="20dp"
-            android:layout_margin="10dp"/>
-
-        <TextView
-            android:id="@+id/btn_skip"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Terms-and-Conditions"
-            android:layout_gravity="center"
-            android:textSize="16dp"
+            android:text="Skip"
+            android:layout_marginLeft="20dp"
             android:textStyle="bold"
+            android:textSize="7pt"
+            android:textAllCaps="false"
             android:textColor="#0747F9"
-            android:layout_marginBottom="10dp"/>
+            android:layout_alignParentLeft="true"
+            android:background="@color/transparent"
+
+            />
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Next"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:textSize="7pt"
+            android:textAllCaps="false"
+            android:textColor="#0747F9"
+            android:layout_alignParentRight="true"
+            android:background="@color/transparent"
+            />
+
+
+        <Button
+            android:id="@+id/getStarted"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Get Started"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:textSize="7pt"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentBottom="true"
+            android:background="#536dfe"
+            />
 
 
 
-    </LinearLayout>
+
+    </RelativeLayout>
 
 
 

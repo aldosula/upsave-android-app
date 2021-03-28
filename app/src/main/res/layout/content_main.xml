@@ -137,6 +137,39 @@
 
 
             </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/refer_earn_button"
+                    android:gravity="center"
+                    android:layout_marginLeft="60dp"
+                    android:layout_alignParentBottom="true">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/whiteTextColor"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="Today's Tip"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:src="@drawable/refer_icon" />
+
+            </RelativeLayout>
+
 
 
             <RelativeLayout
@@ -172,7 +205,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <include layout="@layout/card_popular_courses"/>
+                <include layout="@layout/card_popular_courses" />
+
                 <include layout="@layout/card_deposit"/>
                 <include layout="@layout/card_rent"/>
 
@@ -189,7 +223,7 @@
                 <TextView
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
-                    android:text="Deadline Payments"
+                    android:text="Your Budgets"
                     style="@style/viewParent.headerText"/>
 
                 <TextView
@@ -208,21 +242,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:orientation="vertical"
+                android:id="@+id/layout_budgets"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="50dp"
                 >
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginBottom="50dp">
-
-                    <include layout="@layout/card_popular_courses"/>
-                    <include layout="@layout/card_popular_courses"/>
-                    <include layout="@layout/card_popular_courses"/>
-
-                </LinearLayout>
+               <include layout="@layout/card_1"/>
+                <include layout="@layout/card_2"/>
+                <include layout="@layout/card_3"/>
 
             </LinearLayout>
 
@@ -238,8 +266,6 @@
 
         android:layout_alignParentEnd="true"
         android:layout_marginTop="420dp"
-
-
         >
 
         <com.getbase.floatingactionbutton.FloatingActionButton
